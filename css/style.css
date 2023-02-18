@@ -12,8 +12,8 @@
 }
 :root {
   --main-color: #033a80;
-  --bg-color: rgb(0, 0, 0);
-  --text-color: #FFFFFF;
+  --bg-color: rgb(243, 243, 243);
+  --text-color: #1d0fdd;
   --hover: hsla(244, 98%, 51%, 0.596);
  
   --big-font: 3.2rem;
@@ -102,9 +102,10 @@ header.shadow {
 }
 .home-img img {
   position: relative;
-  top: 8px; 
-  left: 200px;
-  /*width:100%; */
+  top: 100px; 
+  height:450px;
+  left: 150px;
+  width:125%;
 
 }
 .home-text span {
