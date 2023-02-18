@@ -24,8 +24,8 @@ section {
   padding: 50px 10%;
 }
 body.active {
-  --text-color: #fff;
-  --bg-color: #1A2C5E;
+  --text-color: #2e0cec;
+  --bg-color: #f7f7f7;
 }
 body {
   background: var(--bg-color);
