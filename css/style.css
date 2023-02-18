@@ -11,9 +11,9 @@
   font-family: "Poppins", sans-serif;
 }
 :root {
-  --main-color: #033a80;
+  --main-color: #002a61;
   --bg-color: rgb(239, 247, 242);
-  --text-color: #2619da;
+  --text-color: #b20af5;
   --hover: hsla(244, 98%, 51%, 0.596);
  
   --big-font: 3.2rem;
