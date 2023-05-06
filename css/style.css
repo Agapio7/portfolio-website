@@ -65,10 +65,10 @@ header.shadow {
   box-shadow: 0 0 4px rgb(14 55 54 / 15%);
 }
 .logo {
-   padding-top: 15px;
+   padding-top: 5px;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
-  height: 80px;
+  height: 10px;
 }
 .navbar {
   display: flex;
@@ -105,7 +105,7 @@ header.shadow {
   top: 100px; 
   height:450px;
   left: 150px;
-  width:125%;
+  width:150%;
 
 }
 .home-text span {
@@ -144,7 +144,7 @@ header.shadow {
 }
  
 .about-img img {
-  width: 80%;
+  width: 50%;
 }
 .about-text p {
   font-size: var(--p-font);
