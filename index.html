@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biography | HBG </title>
+    <title>Responsive Portfolio Website</title>
     <!-- Link To CSS -->
     <link rel="stylesheet" href="./css/style.css">
     <!-- Box Icons -->
@@ -15,36 +15,48 @@
 <body>
     <!-- Navbar -->
     <header>
-        <a href="#"><img id="logo" src="r.png" </a>
+        <a href="#" class="logo">
+            <img src="log.svg" width="100" height="100" alt="HBG home">
+        </a>
+        
         <div class="bx bx-menu" id="menu-icon"></div>
+ 
         <ul class="navbar">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
+            <li><a href="#services">Services</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#blogs">Blogs</a></li>
             <li><a href="#contact">Contact</a></li>
-            
+            <div class="bx bx-moon" id="darkmode"></div>
         </ul>
     </header>
     <!-- Home -->
  
     <section class="home" id="home">
+        <div class="social">
+            <a href="https://github.com/Hem5555"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class='bx bxl-dribbble' ></i></a>
+            <a href="#"><i class='bx bxl-behance' ></i></a>
         </div>
         <div class="home-img">
-            <img src="aws.jpg" alt="" > 
+            <img src="11.png" alt="">
         </div>
         <div class="home-text">
-            <span>Hello EveryOne 👋</span>
-            <h1>Hope,You are doing Well 😍</h1>
-            <!---- <a href="#contact" class="btn">Contact Me</a>  -->
+            <span>Hello, I'm</span>
+            <h1>Hem Bahadur Gurung</h1>
+            <h2>AI Engineer</h2>
+            <p>
+                I am a highly passionate and driven individual with a strong interest in working on computer vision and natural language processing (NLP) projects. </p>
+            <a href="#contact" class="btn">Contact Me</a>
+            <a href="#portfolio" class="btn">Portfolio</a>
         </div>
  
     </section>
     <!-- About -->
     <section class="about" id="about">
         <div class="heading">
-            <h2> Hem 's Profile </h2>
+            <h2>About Me</h2>
             <span>Introduction</span>
         </div>
         <!-- About Content -->
@@ -53,8 +65,25 @@
                 <img src="profile.jpg" alt="">
             </div>
             <div class="about-text">
-                <p> Having One year of experience on Tech industry and interested in working in AWS,Computer Vision,NLP ,Prompt Engineering and data analytics Project</p>
-                <a href="#" class="btn">Download CV</a>
+                <p>Highly motivated AI Engineer with one year of experience in deep learning and data analytics projects. Seeking a challenging position to apply my skills and knowledge in developing innovative AI solutions.</p>
+                <div class="information">
+                    <!-- Box 1 -->
+                    <div class="info-box">
+                        <i class='bx bxs-user' ></i>
+                        <span>Hem Bahadur Gurung</span>
+                    </div>
+                    <!-- Box 2 -->
+                    <div class="info-box">
+                        <i class='bx bxs-phone' ></i>
+                        <span>+977-9801013770</span>
+                    </div>
+                    <!-- Box 3 -->
+                    <div class="info-box">
+                        <i class='bx bxs-envelope' ></i>
+                        <span>query.hem@gmail.com</span>
+                    </div>
+                </div>
+                <a href="#" class="btn">Download Cv</a>
             </div>
         </div>
     </section>
@@ -62,58 +91,130 @@
     <section class="skills" id="skills">
         <div class="heading">
             <h2>Skills</h2>
-            <span>Work Mode On 🔥 </span>
+            <span>My Skills</span>
+        </div>
+        <!-- Skills Content -->
+        <div class="skills-container">
+            <div class="bars">
+                <!-- Box 1 -->
+                <div class="bars-box">
+                    <h3>Algorithm</h3>
+                    <span>60%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar html-bar"></div>
+                </div>
+                <!-- Box 2 -->
+                <div class="bars-box">
+                    <h3>Python</h3>
+                    <span>84%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar css-bar"></div>
+                </div>
+                <!-- Box 3 -->
+                <div class="bars-box">
+                    <h3>JavaScript</h3>
+                    <span>50%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar js-bar"></div>
+                </div>
+                <!-- Box 4 -->
+                <div class="bars-box">
+                    <h3>React</h3>
+                    <span>70%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar react-bar"></div>
+                </div>
+                <!-- Box 5 -->
+                <div class="bars-box">
+                    <h3>PyTorch</h3>
+                    <span>80%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar PyTorch-bar"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>Tensorflow</h3>
+                    <span>60%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar Tensorflow-bar"></div>
+                </div>
+            </div>
+            <div class="skills-img">
+                <img src="123.png" alt="">
+            </div>
         </div>
  
+    </section>
+    <!-- Services -->
+    <section class="services" id="services">
+        <div class="heading">
+            <h2>Services</h2>
+            <span>Our Services</span>
+        </div>
+        <div class="services-content">
+            <!-- Box 1 -->
+            <div class="services-box">
+                <i class='bx bx-code-alt' ></i>
+                <h3>Web Development</h3>
+                <a href="#">Learn More</a>
+            </div>
+            <!-- Box 2 -->
+            <div class="services-box">
+                <i class='bx bx-server' ></i>
+                <h3>Backend Development</h3>
+                <a href="#">Learn More</a>
+            </div>
+            <!-- Box 3 -->
+            <div class="services-box">
+                <i class='bx bx-cloud' ></i>
+                <h3>Cloud Computing</h3>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxl-ai' ></i>
+                <h3>Artificial Intelligence</h3>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-data' ></i>
+                <h4>Data Science</h4>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
     </section>
     <!-- Portfolio -->
     <section class="portfolio" id="portfolio">
         <div class="heading">
-            <h2>Portfolio Projects</h2>
-
-            <span>Our Recent  Projects</span>
+            <h2>Portfolio</h2>
+            <span>Our Recent Work</span>
         </div>
         <div class="portfolio-content">
             <div class="portfolio-img">
                 <h3>Ethereum Datascience Project</h3>
-                <img src="https://ethereum.org/static/4d030a46f561e5c754cabfc1a97528ff/a5c62/impact_transparent.webp" alt="">
-                <p class="subtext">This is my datascience project.</p>
+                <img src="blog-2.jpg" alt="">
+                <p class="subtext">Datascience project.</p>
                 <p class="subtext"><a class="project-link" href="#">View here</a></p>
             </div>
             <div class="portfolio-img">
-                <h3>Deep Learning Virtual mouse using Human Hand Gesture</h3>
-                <img src="https://1.bp.blogspot.com/-8SxmsK5VoJ0/XVrTpMrJDFI/AAAAAAAAEiM/nAa3vuj8a2sjgEPAeMKXD4m09yKUgjVIQCLcBGAs/s1600/Screenshot%2B2019-08-19%2Bat%2B9.51.25%2BAM.png" alt="">
-                <p class="subtext">Virtual Mouse control by Human Fingers</p>
-                <p class="subtext"><a class="project-link" href="https://github.com/Hem7513/AIvirtual-mouse">View here</a></p>
+                <h4>Hand Gesture mouse using Deep Learning</h4>
+                <img src="blog-3.jpg" alt="">
+                <p class="subtext">Computer Vision Project</p>
+                <p class="subtext"><a class="project-link" href="#">View here</a></p>
             </div>
             <div class="portfolio-img">
-                <h3>Face motion detection</h3>
-                <img src="https://img.freepik.com/premium-vector/man-face-person-identification-process-recognition-scan-app_81894-7480.jpg?w=2000" alt="">
-                <p class="subtext">This is human face detection project.</p>
-                <p class="subtext"><a class="project-link" href="https://github.com/Hem7513/Faceemotion-detecion-using-Javascript">View here</a></p>
+                <h5>Grafana Dash Board Visualization</h5>
+                <img src="blog-5.jpg" alt="">
+                <p class="subtext">Data Analytic Project</p>
+                <p class="subtext"><a class="project-link" href="#">View here</a></p>
             </div>
+            
         </div>
     </section>
-</section>
-<!-- blogs -->
-<section class="blogs" id="blogs">
-    <div class="heading">
-        <h2>Blogs</h2>
-        <span>Our Recent  Projects</span>
-    </div>
-    <div class="blogs-content">
-        <div class="blogs-img">
-            <h3>First AWS Deep Racer League in Nepal</h3>
-            <img src="#" alt="">
-            <p class="subtext"> Participation on Deep Racer League</p>
-            <p class="subtext"><a class="project-link" href="https://hembahadurgurung.medium.com/nepal-set-new-world-record-lap-time-of-7-062-sec-at-the-first-ever-deep-racer-league-nepal-in-2022-85feeb86fc3a">View here</a></p>
-        </div>
-</section>
     <!-- Contact -->
     <section class="contact" id="contact">
         <div class="heading">
             <h2>Contact</h2>
-            <span>Keep in touch with us</span>
+            <span>Keep in Touch</span>
         </div>
         <div class="contact-form">
             <form action="">
@@ -126,23 +227,12 @@
     </section>
     <!-- Footer -->
     <div class="footer">
-        <h2>Contact Info</h2>
-        <div class="information">
-            <!-- Box 2 -->
-            <!-- <div class="info-box">
-                <i class='bx bxs-phone' ></i>
-                <span></span>
-            </div> -->
-            <!-- Box 3 -->
-            <div class="info-box">
-                <i class='bx bxs-envelope' ></i>
-                <span> Contact below ⬇️</span>
-            </div>
-        </div>
+        <h2>Contact info</h2>
         <div class="footer-social">
             <a href="https://www.linkedin.com/in/hembahadurgurung555/"><i class='bx bxl-linkedin' ></i></a>
             <a href="https://hembahadurgurung.medium.com/nepal-set-new-world-record-lap-time-of-7-062-sec-at-the-first-ever-deep-racer-league-nepal-in-2022-85feeb86fc3a/"><i class='bx bxl-medium' ></i></a>
-            <a href="https://www.youtube.com/watch?v=T9QVW1ndP_E/"><i class='bx bxl-youtube' ></i></a> 
+            <a href="https://www.youtube.com/watch?v=T9QVW1ndP_E/"><i class='bx bxl-youtube' ></i></a>
+            
         </div>
  
     </div>
